@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>JobbAI Hero Illustration</title>
+    <g id="JobbAI-Hero" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="800" height="600"></rect>
+        <g id="Resume-to-Jobs" transform="translate(100.000000, 100.000000)">
+            <!-- Resume Document -->
+            <rect id="Resume" fill="#F3F4F6" x="0" y="50" width="200" height="300" rx="8"></rect>
+            <rect id="Header" fill="#E5E7EB" x="20" y="70" width="160" height="30" rx="4"></rect>
+            <rect id="Line1" fill="#D1D5DB" x="20" y="120" width="160" height="10" rx="2"></rect>
+            <rect id="Line2" fill="#D1D5DB" x="20" y="140" width="120" height="10" rx="2"></rect>
+            <rect id="Line3" fill="#D1D5DB" x="20" y="180" width="160" height="10" rx="2"></rect>
+            <rect id="Line4" fill="#D1D5DB" x="20" y="200" width="140" height="10" rx="2"></rect>
+            <rect id="Line5" fill="#D1D5DB" x="20" y="240" width="160" height="10" rx="2"></rect>
+            <rect id="Line6" fill="#D1D5DB" x="20" y="260" width="130" height="10" rx="2"></rect>
+            <rect id="Line7" fill="#D1D5DB" x="20" y="300" width="160" height="10" rx="2"></rect>
+            <rect id="Line8" fill="#D1D5DB" x="20" y="320" width="100" height="10" rx="2"></rect>
+            
+            <!-- AI Processing Circle -->
+            <circle id="AI-Circle" fill="#0EA5E9" opacity="0.1" cx="300" cy="200" r="80"></circle>
+            <circle id="AI-Inner-Circle" stroke="#0EA5E9" stroke-width="4" cx="300" cy="200" r="70"></circle>
+            <path d="M280,180 L320,220 M280,220 L320,180" stroke="#0EA5E9" stroke-width="4" stroke-linecap="round"></path>
+            <circle id="Pulse1" stroke="#0EA5E9" stroke-width="2" opacity="0.6" cx="300" cy="200" r="90"></circle>
+            <circle id="Pulse2" stroke="#0EA5E9" stroke-width="1" opacity="0.3" cx="300" cy="200" r="100"></circle>
+            
+            <!-- Job Opportunities -->
+            <rect id="Job1" fill="#0D9488" x="400" y="100" width="200" height="80" rx="8"></rect>
+            <rect id="Job1Header" fill="#FFFFFF" x="420" y="120" width="160" height="15" rx="2"></rect>
+            <rect id="Job1Text" fill="#99F6E4" x="420" y="145" width="120" height="10" rx="2"></rect>
+            
+            <rect id="Job2" fill="#0369A1" x="420" y="210" width="200" height="80" rx="8"></rect>
+            <rect id="Job2Header" fill="#FFFFFF" x="440" y="230" width="160" height="15" rx="2"></rect>
+            <rect id="Job2Text" fill="#BAE6FD" x="440" y="255" width="120" height="10" rx="2"></rect>
+            
+            <rect id="Job3" fill="#4F46E5" x="400" y="320" width="200" height="80" rx="8"></rect>
+            <rect id="Job3Header" fill="#FFFFFF" x="420" y="340" width="160" height="15" rx="2"></rect>
+            <rect id="Job3Text" fill="#C7D2FE" x="420" y="365" width="120" height="10" rx="2"></rect>
+            
+            <!-- Connection Lines -->
+            <path d="M200,200 L230,200" stroke="#9CA3AF" stroke-width="2" stroke-dasharray="6,3"></path>
+            <path d="M370,200 L400,200" stroke="#9CA3AF" stroke-width="2" stroke-dasharray="6,3"></path>
+            <path d="M370,170 L420,140" stroke="#9CA3AF" stroke-width="2" stroke-dasharray="6,3"></path>
+            <path d="M370,230 L420,250" stroke="#9CA3AF" stroke-width="2" stroke-dasharray="6,3"></path>
+            <path d="M350,270 L400,330" stroke="#9CA3AF" stroke-width="2" stroke-dasharray="6,3"></path>
+        </g>
+    </g>
+</svg>
