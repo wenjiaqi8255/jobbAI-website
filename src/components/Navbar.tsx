@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, BrainCircuit } from 'lucide-react';
 import Button from './Button';
+import logo from '../assets/logo.svg';
+
 
 const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -33,10 +35,11 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <a href="#" className="flex items-center group">
-            <BrainCircuit className={`h-8 w-8 ${scrolled ? 'text-aquamarine-600' : 'text-aquamarine-500'} transition-transform group-hover:rotate-12`} />
-            <span className={`ml-2 text-xl font-bold ${scrolled ? 'text-gray-900' : 'text-gray-800'}`}>
+            {/* <BrainCircuit className={`h-8 w-8 ${scrolled ? 'text-aquamarine-600' : 'text-aquamarine-500'} transition-transform group-hover:rotate-12`} /> */}
+            <img src={logo} alt="JobbAI Logo" className={`h-8 w-24 ${scrolled ? 'text-aquamarine-600' : 'text-aquamarine-500'}`} />
+            {/* <span className={`ml-2 text-xl font-bold ${scrolled ? 'text-gray-900' : 'text-gray-800'}`}>
               JobbAI
-            </span>
+            </span> */}
           </a>
 
           <nav className="hidden md:flex items-center space-x-8">

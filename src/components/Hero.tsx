@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, Github } from 'lucide-react';
 import Button from './Button';
-import heroIllustration from '../assets/hero-illustration.svg';
+import heroIllustration from '../assets/illustration.png';
 
 const Hero: React.FC = () => {
   return (

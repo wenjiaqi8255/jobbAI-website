@@ -11,14 +11,14 @@ const SocialProof: React.FC = () => {
         
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16">
           <div className="flex items-center bg-white px-8 py-6 rounded-lg shadow-sm">
-            <GraduationCap className="h-8 w-8 text-aquamarine-600 mr-4" />
+            <GraduationCap className="h-8 w-8 text-aquamarine-300 mr-4" />
             <div>
               <p className="text-lg font-semibold text-gray-800">Being built by TUM students</p>
             </div>
           </div>
           
           <div className="flex items-center bg-white px-8 py-6 rounded-lg shadow-sm">
-            <Building className="h-8 w-8 text-aquamarine-600 mr-4" />
+            <Building className="h-8 w-8 text-aquamarine-300 mr-4" />
             <div>
               <p className="text-lg font-semibold text-gray-800">(Will be) backed by UnternehmerTUM</p>
             </div>

@@ -11,7 +11,7 @@ const Feature: React.FC<FeatureProps> = ({ icon, title, description }) => {
   return (
     <div className="group flex flex-col items-start p-8 bg-white rounded-xl shadow-sm border border-gray-100 transition-all duration-300 hover:shadow-xl hover:border-aquamarine-100 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-aquamarine-50 to-icterine-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-      <div className="p-4 rounded-lg bg-gradient-to-r from-aquamarine-500 to-icterine-500 text-white mb-4 relative transform transition-transform group-hover:scale-110">
+      <div className="p-4 rounded-lg bg-gradient-to-r from-aquamarine-300 to-aquamarine-500 text-white mb-4 relative transform transition-transform group-hover:scale-110">
         {icon}
       </div>
       <h3 className="text-xl font-semibold text-gray-900 mb-2 relative">{title}</h3>

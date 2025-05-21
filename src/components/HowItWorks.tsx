@@ -12,10 +12,10 @@ const Step: React.FC<StepProps> = ({ number, title, description, icon }) => {
   return (
     <div className="flex flex-col items-center">
       <div className="relative">
-        <div className="flex items-center justify-center w-16 h-16 rounded-full bg-aquamarine-600 text-white mb-4">
+        <div className="flex items-center justify-center w-16 h-16 rounded-full bg-aquamarine-400 text-white mb-4">
           {icon}
         </div>
-        <div className="absolute top-0 -right-1 flex items-center justify-center w-8 h-8 rounded-full bg-icterine-600 text-white text-sm font-bold">
+        <div className="absolute top-0 -right-1 flex items-center justify-center w-8 h-8 rounded-full bg-icterine-500 text-gray-800 text-sm font-bold">
           {number}
         </div>
       </div>
